@@ -1,0 +1,116 @@
+body{
+    background-color: #3b4bfe;
+    color: #ffffff;
+}
+
+div{
+    color: #717dff;
+    justify-content: center;
+    align-content: center;
+    font-style: bold;
+    font-family:'calibri';
+}
+span{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 100px
+
+}
+img{
+    width: 200%;
+    height: 200%x;
+    border-radius: 30%;
+    border: 300px solid #3b4bfe;
+}
+.textside{
+    color: #ffffff;
+    width:1050px;
+    height:70px;
+    justify-content: right;
+    align-content: right;
+    font-style: bold;
+    font-family:'calibri';
+    font-size:150px;
+    font-weight: bold;
+    
+}
+.nama{
+    font-size: 50px;
+    font-family: 'calibri';
+    font-style: bold;
+    color: #ffffff;
+    display: flex;
+    background-color: #0cc4c7;
+    border-radius: 100px;
+}
+.pertanyaan{
+    background-color: #d42bd2;
+    color: #ffffff;
+    display: flex;
+border-radius: 100px;
+font-size: x-large;
+}
+.ugm{
+    color: #ffffff;
+    background-color: #dfb876;
+    display: flex;
+    border-radius: 100px;
+    font-size: x-large;
+}
+.untan{
+    color: #ffffff;
+    background-color: #082080;
+    display: flex;
+    border-radius: 100px;
+    font-size: x-large;
+}
+.sma{
+    color: #ffffff;
+    background-color: #7e7ea5;
+    display: flex;
+    border-radius: 100px;
+    font-size: x-large;
+}
+.mts{
+    color: #ffffff;
+    background-color: #250cc7;
+    display: flex;
+    border-radius: 100px;
+    font-size: x-large;
+}
+.sd{
+    color: #ffffff;
+    background-color: #ff0000;
+    display: flex;
+    border-radius: 100px;
+    font-size: x-large;
+}
+.tk{
+    color: #ffffff;
+    background-color: #019c30;
+    display: flex;
+    border-radius: 100px;
+    font-size: x-large;
+}
+footer{
+    background-color: #141a5c;
+    color: #ffffff;
+    display: flex;
+    justify-content: bottom;
+    align-content: bottom;
+    font-style: bold;
+    font-family:'calibri';
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 100px;
+}
+@media screen and (min-width: 500px){
+    .textside{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+}
